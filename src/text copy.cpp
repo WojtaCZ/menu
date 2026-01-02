@@ -613,7 +613,7 @@ static const uint16_t Font16x26[] = {
 	0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, // Ascii = [~]
 };
 
-FontDef Font_7x10  = {7, 10, Font7x10};
+Font Font_7x10  = {7, 10, Font7x10};
 FontDef Icon_7x10  = {7, 10, Icon7x10};
 FontDef Font_11x18 = {11, 18, Font11x18};
 FontDef Icon_11x18 = {11, 18, Icon11x18};
