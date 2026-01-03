@@ -4,7 +4,7 @@
 
 using namespace menu::drawing;
 
-static constexpr icon<14, 8> battery_empty({
+const icon<14, 8> battery_empty({
     std::bitset<14>("00111111111111"),
     std::bitset<14>("00100000000001"),
     std::bitset<14>("11100000000001"),
@@ -15,7 +15,7 @@ static constexpr icon<14, 8> battery_empty({
     std::bitset<14>("00111111111111"),
 });
 
-static constexpr icon<14, 8> battery_1_4({
+const icon<14, 8> battery_1_4({
     std::bitset<14>("00111111111111"),
     std::bitset<14>("00100000000001"),
     std::bitset<14>("11100000011101"),
@@ -26,7 +26,7 @@ static constexpr icon<14, 8> battery_1_4({
     std::bitset<14>("00111111111111"),
 });
 
-static constexpr icon<14, 8> battery_2_4({
+const icon<14, 8> battery_2_4({
     std::bitset<14>("00111111111111"),
     std::bitset<14>("00100000000001"),
     std::bitset<14>("11100001111101"),
@@ -37,7 +37,7 @@ static constexpr icon<14, 8> battery_2_4({
     std::bitset<14>("00111111111111"),
 });
 
-static constexpr icon<14, 8> battery_3_4({
+const icon<14, 8> battery_3_4({
     std::bitset<14>("00111111111111"),
     std::bitset<14>("00100000000001"),
     std::bitset<14>("11100011111101"),
@@ -48,7 +48,7 @@ static constexpr icon<14, 8> battery_3_4({
     std::bitset<14>("00111111111111"),
 });
 
-static constexpr icon<14, 8> battery_full({
+const icon<14, 8> battery_full({
     std::bitset<14>("00111111111111"),
     std::bitset<14>("00100000000001"),
     std::bitset<14>("11101111111101"),
@@ -65,7 +65,7 @@ static constexpr icon<14, 8> battery_full({
 
 
 
-static constexpr icon<14, 10> wireless_1({
+const icon<14, 10> wireless_1({
     std::bitset<14>("00000000000000"),
     std::bitset<14>("00000000000000"),
     std::bitset<14>("00000000000000"),
@@ -78,7 +78,7 @@ static constexpr icon<14, 10> wireless_1({
     std::bitset<14>("00000011000000"),
 });
 
-static constexpr icon<14, 10> wireless_2({
+const icon<14, 10> wireless_2({
     std::bitset<14>("00000000000000"),
     std::bitset<14>("00000000000000"),
     std::bitset<14>("00000000000000"),
@@ -91,7 +91,7 @@ static constexpr icon<14, 10> wireless_2({
     std::bitset<14>("00000011000000"),
 });
 
-static constexpr icon<14, 10> wireless_3({
+const icon<14, 10> wireless_3({
     std::bitset<14>("00000000000000"),
     std::bitset<14>("00000000000000"),
     std::bitset<14>("00000111100000"),
@@ -105,7 +105,7 @@ static constexpr icon<14, 10> wireless_3({
 });
 
 
-static constexpr icon<14, 10> wireless_4({
+const icon<14, 10> wireless_4({
     std::bitset<14>("00001111110000"),
     std::bitset<14>("01000000000010"),
     std::bitset<14>("10000111100001"),
@@ -120,7 +120,7 @@ static constexpr icon<14, 10> wireless_4({
 
 
 /* Kulicka (puntik vybrano) */
-static constexpr icon<7, 7> dot_filled({
+const icon<7, 7> dot_filled({
     std::bitset<7>("0011100"),
     std::bitset<7>("0111110"),
     std::bitset<7>("1111111"),
@@ -131,7 +131,7 @@ static constexpr icon<7, 7> dot_filled({
 });
 
 /* Kulicka obrys (puntik nevybrano) */
-static constexpr icon<7, 7> dot_outline({
+const icon<7, 7> dot_outline({
     std::bitset<7>("0011100"),
     std::bitset<7>("0100010"),
     std::bitset<7>("1000001"),
@@ -142,7 +142,7 @@ static constexpr icon<7, 7> dot_outline({
 });
 
 /* Sipka nahoru */
-static constexpr icon<7, 7> arrow_up({
+const icon<7, 7> arrow_up({
     std::bitset<7>("0001000"),
     std::bitset<7>("0011100"),
     std::bitset<7>("0011100"),
@@ -153,7 +153,7 @@ static constexpr icon<7, 7> arrow_up({
 });
 
 /* Sipka dolu */
-static constexpr icon<7, 7> arrow_down({
+const icon<7, 7> arrow_down({
     std::bitset<7>("1111111"),
     std::bitset<7>("1111111"),
     std::bitset<7>("0111110"),
@@ -164,7 +164,7 @@ static constexpr icon<7, 7> arrow_down({
 });
 
 /* Sipka vlevo prazdna */
-static constexpr icon<8, 9> arrow_left_empty({
+const icon<8, 9> arrow_left_empty({
     std::bitset<8>("00000100"),
     std::bitset<8>("00011100"),
     std::bitset<8>("00111010"),
@@ -177,7 +177,7 @@ static constexpr icon<8, 9> arrow_left_empty({
 });
 
 /* Sipka vlevo plna */
-static constexpr icon<8, 9> arrow_left_filled({
+const icon<8, 9> arrow_left_filled({
     std::bitset<8>("00000100"),
     std::bitset<8>("00011100"),
     std::bitset<8>("00111110"),
@@ -190,7 +190,7 @@ static constexpr icon<8, 9> arrow_left_filled({
 });
 
 /* Checkbox nevybrany */
-static constexpr icon<9, 9> checkbox_empty({
+const icon<9, 9> checkbox_empty({
     std::bitset<9>("111111111"),
     std::bitset<9>("100000001"),
     std::bitset<9>("100000001"),
@@ -203,7 +203,7 @@ static constexpr icon<9, 9> checkbox_empty({
 });
 
 /* Checkbox nevybrany – checked */
-static constexpr icon<9, 9> checkbox_empty_checked({
+const icon<9, 9> checkbox_empty_checked({
     std::bitset<9>("111111111"),
     std::bitset<9>("100000001"),
     std::bitset<9>("100000001"),
@@ -216,7 +216,7 @@ static constexpr icon<9, 9> checkbox_empty_checked({
 });
 
 /* Checkbox vybrany */
-static constexpr icon<9, 9> checkbox_filled({
+const icon<9, 9> checkbox_filled({
     std::bitset<9>("111111111"),
     std::bitset<9>("111111111"),
     std::bitset<9>("110000011"),
@@ -229,7 +229,7 @@ static constexpr icon<9, 9> checkbox_filled({
 });
 
 /* Checkbox vybrany – checked */
-static constexpr icon<9, 9> checkbox_filled_checked({
+const icon<9, 9> checkbox_filled_checked({
     std::bitset<9>("111111111"),
     std::bitset<9>("111111111"),
     std::bitset<9>("110000011"),
